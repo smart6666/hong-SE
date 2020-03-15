@@ -44,7 +44,10 @@ public class WordCounter {
      * 计算文件行数
      */
     public int lineNumCounter() throws IOException {
-        return wordString.toString().split("\\n").length;
+    	if(wordString.equals("")) {
+    		return 0;
+    	}
+        return wordString.split("\\n").length;
     }
 }
 
