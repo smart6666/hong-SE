@@ -1,4 +1,4 @@
-package wordcounter.counter;
+package wordcounter;
 
 import java.io.*;
 import java.nio.charset.Charset;
